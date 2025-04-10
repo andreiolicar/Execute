@@ -3,7 +3,14 @@
 </div>
 
 # Execute
-Execute é um aplicativo de lista de tarefas (To-Do List) desenvolvido com foco na simplicidade, minimalismo e praticidade. O objetivo principal deste projeto é oferecer uma ferramenta intuitiva e eficiente para o gerenciamento de tarefas diárias, priorizando a usabilidade e a leveza.
+Execute é um sistema web de lista de tarefas (To-Do List) desenvolvido com foco na simplicidade, minimalismo e praticidade. O objetivo principal deste projeto é oferecer uma ferramenta intuitiva e eficiente para o gerenciamento de tarefas diárias, priorizando a usabilidade e a leveza.
+
+**Recursos Principais:**
+
+* Adição rápida de novas tarefas.
+* Visualização clara e organizada da lista de tarefas.
+* Marcação de tarefas como concluídas.
+* Remoção de tarefas.
 
 **Linguagens e Tecnologias:**
 
@@ -19,26 +26,11 @@ Execute é um aplicativo de lista de tarefas (To-Do List) desenvolvido com foco 
 ![PHOTOSHOP](https://img.shields.io/badge/Adobe%20Photoshop-2E4DFF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black) &nbsp;
 ![VSCODE](https://img.shields.io/badge/VSCode-2E4DFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) &nbsp;
 
-**Recursos Principais:**
-
-* Adição rápida de novas tarefas.
-* Visualização clara e organizada da lista de tarefas.
-* Marcação de tarefas como concluídas.
-* Remoção de tarefas.
-
 **Principais Links:**
 
-<a href="https://seulink.com" target="_blank">
-  <img src="https://img.shields.io/badge/Wireframe-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF" />
-</a>
-
-<a href="https://seulink.com" target="_blank">
-  <img src="https://img.shields.io/badge/Código-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF" />
-</a>
-
-<a href="https://seulink.com" target="_blank">
-  <img src="https://img.shields.io/badge/Documentação-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF" />
-</a>
+[![Wireframe](https://img.shields.io/badge/Wireframe-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute) &nbsp;
+[![Código](https://img.shields.io/badge/Código-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute/tree/de9d3594ce045570e566eda83cd37c93b2ab1142/src) &nbsp;
+[![Documentação](https://img.shields.io/badge/Documentação-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)]([https://seulink.com](https://github.com/andreiolicar/Execute/tree/de9d3594ce045570e566eda83cd37c93b2ab1142/docs)) &nbsp;
 
 ### Contribuidores 
 
