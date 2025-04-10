@@ -2,9 +2,6 @@
 <img src="https://github.com/andreiolicar/Execute/blob/main/img/logo/logo%20azul.png" alt="Logo Execute" width="200px">
 </div>
 
-<br>
-<br>
-
 # Execute
 Execute é um aplicativo de lista de tarefas (To-Do List) desenvolvido com foco na simplicidade, minimalismo e praticidade. O objetivo principal deste projeto é oferecer uma ferramenta intuitiva e eficiente para o gerenciamento de tarefas diárias, priorizando a usabilidade e a leveza.
 
