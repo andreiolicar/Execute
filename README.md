@@ -26,6 +26,20 @@ Execute é um aplicativo de lista de tarefas (To-Do List) desenvolvido com foco 
 * Marcação de tarefas como concluídas.
 * Remoção de tarefas.
 
+**Principais Links:**
+
+<a href="https://seulink.com" target="_blank">
+  <img src="https://img.shields.io/badge/Wireframe-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF" />
+</a>
+
+<a href="https://seulink.com" target="_blank">
+  <img src="https://img.shields.io/badge/Código-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF" />
+</a>
+
+<a href="https://seulink.com" target="_blank">
+  <img src="https://img.shields.io/badge/Documentação-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF" />
+</a>
+
 ### Contribuidores 
 
   <table>
