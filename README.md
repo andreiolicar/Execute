@@ -30,7 +30,7 @@ Execute é um sistema web de lista de tarefas (To-Do List) desenvolvido com foco
 
 [![Wireframe](https://img.shields.io/badge/Wireframe-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute) &nbsp;
 [![Código](https://img.shields.io/badge/Código-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute/tree/de9d3594ce045570e566eda83cd37c93b2ab1142/src) &nbsp;
-[![Documentação](https://img.shields.io/badge/Documentação-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)]([https://seulink.com](https://github.com/andreiolicar/Execute/tree/de9d3594ce045570e566eda83cd37c93b2ab1142/docs)) &nbsp;
+[![Documentação](https://img.shields.io/badge/Documentação-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute/tree/main/docs) &nbsp;
 
 ### Contribuidores 
 
