@@ -13,6 +13,12 @@ Execute é um aplicativo de lista de tarefas (To-Do List) desenvolvido com foco 
 ![PHP](https://img.shields.io/badge/php-2E4DFF.svg?style=for-the-badge&logo=php&logoColor=white) &nbsp;
 ![MYSQL](https://img.shields.io/badge/MySQL-2E4DFF?style=for-the-badge&logo=mysql&logoColor=white) &nbsp;
 
+**Ferramentas:**
+
+![FIGMA](https://img.shields.io/badge/Figma-2E4DFF?style=for-the-badge&logo=figma&logoColor=white) &nbsp;
+![PHOTOSHOP](https://img.shields.io/badge/Adobe%20Photoshop-2E4DFF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black) &nbsp;
+![VSCODE](https://img.shields.io/badge/VSCode-2E4DFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) &nbsp;
+
 **Recursos Principais:**
 
 * Adição rápida de novas tarefas.
