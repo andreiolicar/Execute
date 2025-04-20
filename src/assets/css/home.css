@@ -1,0 +1,49 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #040517;
+}
+
+header {
+    padding: 54px 192px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 100px;
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+            transition: color 0.3s
+        }
+
+        li a:hover {
+            color: #51faaa;
+            transition: color 0.3s
+        }
+    }
+
+    .btn-login {
+        padding: 8px 60px;
+        border-radius: 50px;
+        background: none;
+        border: 1px solid #51faaa;
+    
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
