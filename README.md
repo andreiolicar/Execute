@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/andreiolicar/Execute/blob/main/img/logo/logo%20azul.png" alt="Logo Execute" width="200px">
+<img src="https://github.com/andreiolicar/Execute/blob/main/img/logo/logo%20verde.png" alt="Logo Execute" width="200px">
 </div>
 
 # Execute
@@ -14,23 +14,23 @@ Execute é um sistema web de lista de tarefas (To-Do List) desenvolvido com foco
 
 **Linguagens e Tecnologias:**
 
-![HTML](https://img.shields.io/badge/HTML-2E4DFF?style=for-the-badge&logo=html5&logoColor=white) &nbsp;
-![CSS](https://img.shields.io/badge/CSS-2E4DFF?&style=for-the-badge&logo=css3&logoColor=white) &nbsp;
-![JavaScript](https://img.shields.io/badge/JavaScript-2E4DFF?style=for-the-badge&logo=javascript&logoColor=white) &nbsp;
-![PHP](https://img.shields.io/badge/php-2E4DFF.svg?style=for-the-badge&logo=php&logoColor=white) &nbsp;
-![MYSQL](https://img.shields.io/badge/MySQL-2E4DFF?style=for-the-badge&logo=mysql&logoColor=white) &nbsp;
+![HTML](https://img.shields.io/badge/HTML-51faaa?style=for-the-badge&logo=html5&logoColor=0D1117) &nbsp;
+![CSS](https://img.shields.io/badge/CSS-51faaa?&style=for-the-badge&logo=css3&logoColor=0D1117) &nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-51faaa?style=for-the-badge&logo=javascript&logoColor=0D1117) &nbsp;
+![PHP](https://img.shields.io/badge/php-51faaa.svg?style=for-the-badge&logo=php&logoColor=0D1117) &nbsp;
+![MYSQL](https://img.shields.io/badge/MySQL-51faaa?style=for-the-badge&logo=mysql&logoColor=0D1117) &nbsp;
 
 **Ferramentas:**
 
-![FIGMA](https://img.shields.io/badge/Figma-2E4DFF?style=for-the-badge&logo=figma&logoColor=white) &nbsp;
-![PHOTOSHOP](https://img.shields.io/badge/Adobe%20Photoshop-2E4DFF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black) &nbsp;
-![VSCODE](https://img.shields.io/badge/VSCode-2E4DFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) &nbsp;
+![FIGMA](https://img.shields.io/badge/Figma-51faaa?style=for-the-badge&logo=figma&logoColor=0D1117) &nbsp;
+![PHOTOSHOP](https://img.shields.io/badge/Adobe%20Photoshop-51faaa?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=0D1117) &nbsp;
+![VSCODE](https://img.shields.io/badge/VSCode-51faaa?style=for-the-badge&logo=visual%20studio%20code&logoColor=0D1117) &nbsp;
 
 **Principais Links:**
 
-[![Wireframe](https://img.shields.io/badge/Wireframe-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute) &nbsp;
-[![Código](https://img.shields.io/badge/Código-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute/tree/de9d3594ce045570e566eda83cd37c93b2ab1142/src) &nbsp;
-[![Documentação](https://img.shields.io/badge/Documentação-2E4DFF?style=for-the-badge&logoColor=white&color=2E4DFF)](https://github.com/andreiolicar/Execute/tree/main/docs) &nbsp;
+[![Wireframe](https://img.shields.io/badge/Wireframe-51faaa?style=for-the-badge&logoColor=white&color=51faaa)](https://github.com/andreiolicar/Execute) &nbsp;
+[![Código](https://img.shields.io/badge/Código-51faaa?style=for-the-badge&logoColor=white&color=51faaa)](https://github.com/andreiolicar/Execute/tree/de9d3594ce045570e566eda83cd37c93b2ab1142/src) &nbsp;
+[![Documentação](https://img.shields.io/badge/Documentação-51faaa?style=for-the-badge&logoColor=white&color=51faaa)](https://github.com/andreiolicar/Execute/tree/main/docs) &nbsp;
 
 ### Contribuidores 
 
