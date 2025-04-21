@@ -5,14 +5,24 @@
 }
 
 body {
-    background: #040517;
+    background-image: radial-gradient(#26263B, #040517);
+    background-attachment: fixed;
 }
 
 header {
-    padding: 54px 192px;
+    margin: 54px 192px;
+    padding: 20px 30px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    transform: translateY(-100%);
+    opacity: 0;
+    animation: slideDown 0.5s ease-out 0.3s forwards;
 
     nav ul {
         list-style: none;
@@ -24,26 +34,40 @@ header {
             color: white;
             font-weight: 500;
             font-size: 18px;
-            transition: color 0.3s
+            transition: all 0.3s;
         }
 
         li a:hover {
             color: #51faaa;
-            transition: color 0.3s
         }
     }
 
     .btn-login {
-        padding: 8px 60px;
+        padding: 6px 40px;
         border-radius: 50px;
         background: none;
         border: 1px solid #51faaa;
-    
-        a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            font-weight: 500;
-        }
+        color: #51faaa;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .btn-login:hover {
+        background-color: #51faaa;
+        box-shadow: 0px 0px 20px #51faab5d;
+        color: #040517;
     }
 }
+
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
