@@ -31,7 +31,7 @@ header {
     animation: slideDown 0.5s ease-out 0.3s forwards;
 }
 
-header .logo img {
+.logo img {
     display: block;
 }
 
@@ -59,8 +59,8 @@ header .logo img {
     border: none;
     background: none;
     cursor: pointer;
-    width: 30px;
-    height: 21px;
+    width: 27px;
+    height: 18.9px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,13 +69,13 @@ header .logo img {
 .hamburger span {
     display: block;
     width: 100%;
-    height: 3px;
+    height: 2.7px;
     background-color: white;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .hamburger.open .bar1 {
-    transform: translateY(9px) rotate(45deg);
+    transform: translateY(8.1px) rotate(45deg);
 }
 
 .hamburger.open .bar2 {
@@ -83,7 +83,7 @@ header .logo img {
 }
 
 .hamburger.open .bar3 {
-    transform: translateY(-9px) rotate(-45deg);
+    transform: translateY(-8.1px) rotate(-45deg);
 }
 
 .btn-login {
@@ -145,6 +145,11 @@ header .logo img {
 @media (max-width: 750px) {
     header {
         width: calc(90% - 60px - 2px);
+    }
+
+    .logo img {
+        display: block;
+        width: 110px;
     }
 
     .hamburger {
