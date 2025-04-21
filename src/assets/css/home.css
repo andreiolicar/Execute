@@ -4,13 +4,19 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-image: radial-gradient(#26263B, #040517);
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 header {
-    margin: 54px 192px;
+    max-width: 1280px;
+    margin: 54px auto;
     padding: 20px 30px;
     border-radius: 20px;
     display: flex;
@@ -23,51 +29,201 @@ header {
     transform: translateY(-100%);
     opacity: 0;
     animation: slideDown 0.5s ease-out 0.3s forwards;
+}
 
-    nav ul {
-        list-style: none;
-        display: flex;
-        gap: 100px;
+header .logo img {
+    display: block;
+}
 
-        li a {
-            text-decoration: none;
-            color: white;
-            font-weight: 500;
-            font-size: 18px;
-            transition: all 0.3s;
-        }
+.itens ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
 
-        li a:hover {
-            color: #51faaa;
-        }
-    }
+.itens ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s;
+    display: block;
+}
 
-    .btn-login {
-        padding: 6px 40px;
-        border-radius: 50px;
-        background: none;
-        border: 1px solid #51faaa;
-        color: #51faaa;
-        font-size: 18px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.3s;
-    }
+.itens ul li a:hover {
+    color: #51faaa;
+}
 
-    .btn-login:hover {
-        background-color: #51faaa;
-        box-shadow: 0px 0px 20px #51faab5d;
-        color: #040517;
-    }
+.hamburger {
+    display: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 30px;
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.hamburger.open .bar1 {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.open .bar2 {
+    opacity: 0;
+}
+
+.hamburger.open .bar3 {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+.btn-login {
+    padding: 4px 30px;
+    border-radius: 50px;
+    background: none;
+    border: 1px solid #51faaa;
+    color: #51faaa;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #51faaa;
+    box-shadow: 0px 0px 20px #51faab5d;
+    color: #040517;
 }
 
 @keyframes slideDown {
     from {
-      transform: translateY(-100%);
-      opacity: 0;
+        transform: translateY(-100%);
+        opacity: 0;
     }
+
     to {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
+}
+
+@keyframes slideDownMobile {
+    from {
+        transform: translateX(-50%) translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(-50%) translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUpMobile {
+    from {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate(-50%, -100%);
+        opacity: 0;
+    }
+}
+
+/*media query para dispositivos menores que 750px (mobile).*/
+
+@media (max-width: 750px) {
+    header {
+        width: calc(90% - 60px - 2px);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .itens {
+        display: none;
+    }
+
+    .desktop-login {
+        display: none;
+    }
+
+    .itens-mobile {
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        width: calc(90% - 2px);
+        background-color: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.24);
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    .itens-mobile.open {
+        display: flex;
+        animation: slideDownMobile 0.5s ease-out forwards;
+    }
+
+    .itens-mobile.closing {
+        animation: slideUpMobile 0.5s ease-in forwards;
+    }
+
+    .itens-mobile ul {
+        list-style: none;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 20px 0px;
+        width: 100%;
+    }
+
+    .itens-mobile ul li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .itens-mobile ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .itens-mobile ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-login a button {
+        width: 50%;
+    }
+}
+
+/*media query para dispositivos menores que 751px (notebooks, computadores etc).*/
+
+@media (min-width: 751px) {
+    .itens-mobile {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
