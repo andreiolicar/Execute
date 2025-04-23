@@ -257,12 +257,12 @@ h1 {
 
 .carousel-rel {
     max-width: 1280px;
-    display: none;
+    display: block;
     margin: auto;
 }
 
-.carousel-rel .container {
-    display: flex;
+.carousel-rel .carousel-container {
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
@@ -275,7 +275,11 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
-.carousel-rel .container .p-carousel {
+.carousel-rel .carousel-container.active {
+    display: block;
+}
+
+.carousel-rel .carousel-container .p-carousel {
     font-size: 24px;
     font-weight: 400;
     text-align: left;
@@ -283,37 +287,37 @@ h1 {
     margin-bottom: 40px;
 }
 
-.carousel-rel .container .content {
+.carousel-rel .carousel-container .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.carousel-rel .container .content .perfil {
+.carousel-rel .carousel-container .content .perfil {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.carousel-rel .container .content .perfil img {
+.carousel-rel .carousel-container .content .perfil img {
     width: 20%;
     height: 20%;
 }
 
-.carousel-rel .container .content .perfil .information {
+.carousel-rel .carousel-container .content .perfil .information {
     display: flex;
     flex-direction: column;
     gap: 3px;
 }
 
-.carousel-rel .container .content .perfil .information h3 {
+.carousel-rel .carousel-container .content .perfil .information h3 {
     display: block;
     color: white;
     font-size: 18px;
     font-weight: 600;
 }
 
-.carousel-rel .container .content .perfil .information p {
+.carousel-rel .carousel-container .content .perfil .information p {
     display: block;
     color: rgba(255, 255, 255, 0.8);
     white-space: nowrap;
@@ -321,7 +325,7 @@ h1 {
     font-size: 16px;
 }
 
-.carousel-rel .container .content .more a {
+.carousel-rel .carousel-container .content .more a {
     color: #51faaa;
     display: flex;
     align-items: center;
@@ -330,11 +334,11 @@ h1 {
     transition: all 0.3s;
 }
 
-.carousel-rel .container .content .more a:hover {
+.carousel-rel .carousel-container .content .more a:hover {
     color: white;
 }
 
-.carousel-rel .container .content .more .p-read-more {
+.carousel-rel .carousel-container .content .more .p-read-more {
     font-weight: 600;
     font-size: 16px;
 }

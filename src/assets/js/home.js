@@ -24,3 +24,9 @@ function mobileHeader() {
 
     hamburger.classList.toggle('open');
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const depo1 = document.querySelector('#depo1');
+
+    depo1.classList.toggle('active');
+})
