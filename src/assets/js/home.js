@@ -9,13 +9,13 @@ function mobileHeader() {
 
         itensMobile.classList.add('closing');
 
-        const handleAnimationEnd = () => {
+        const AnimationEnd = () => {
             itensMobile.classList.remove('closing');
             itensMobile.style.display = 'none';
-            itensMobile.removeEventListener('animationend', handleAnimationEnd);
+            itensMobile.removeEventListener('animationend', AnimationEnd);
         };
 
-        itensMobile.addEventListener('animationend', handleAnimationEnd);
+        itensMobile.addEventListener('animationend', AnimationEnd);
     } else {
         itensMobile.style.display = 'flex';
         void itensMobile.offsetWidth;
