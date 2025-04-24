@@ -273,10 +273,15 @@ h1 {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.24);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
 }
 
 .carousel-rel .carousel-container.active {
     display: block;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .carousel-rel .carousel-container .p-carousel {
@@ -342,6 +347,27 @@ h1 {
     font-weight: 600;
     font-size: 16px;
 }
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #51faaa;
+}
+
 
 /*media query para dispositivos menores que 750px (mobile).*/
 
